@@ -95,23 +95,7 @@ function ConfOrg ($action)
   return $output;
 }
 
-function ConOrg_Register ()
-{
-//Registration Functions
-//Form to get info (username, Full Name, email, Twitter, webURL, blogURL)
-//Also handle login to update/delete registration
-}
 
-function ConOrg_AddSession ()
-{
-//Add Session Functions
-//Form to get info (session title, link, description, presentors person adding by default, option to add someone already reg or new with email/name (email them))
-}
-
-function ConOrg_Schedule ()
-{
-//Admin can open the schedule
-}
 
 
 register_activation_hook(__FILE__,'ConfOrg_install');
